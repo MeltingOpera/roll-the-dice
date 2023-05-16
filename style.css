@@ -1,0 +1,34 @@
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    color: white;
+    overflow: hidden;
+}
+
+.image {
+    font-family: 'DotGothic16', sans-serif;
+    font-size: 64px;
+}
+
+button {
+    padding: 15px 40px;
+    background: black;
+    color: white;
+    border-style: solid;
+    font-weight: 600;
+    border-radius: 0;
+    border-color: white;
+    font-size: 16px;
+}
+
+botton:active {
+    outline: none;
+    border-radius: 0;
+}
